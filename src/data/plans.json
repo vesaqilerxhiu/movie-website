@@ -1,0 +1,36 @@
+[
+    {
+        "id": "1",
+        "name": "Basic",
+        "price": "4.99 €" ,
+        "features": [ 
+            "Unlimited ad-free movies",
+            "Watch on 1 supported device at a time",
+            "Watch in HD",
+            "Download on 1 supported device at a time"
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Standard",
+        "price": "7.99 €" ,
+        "features": [ 
+            "Unlimited ad-free movies",
+            "Watch on 2 supported devices at a time",
+            "Watch in Full HD",
+            "Download on 2 supported devices at a time"
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Premium",
+        "price": "9.99 €" ,
+        "features": [ 
+            "Unlimited ad-free movies",
+            "Watch on 4 supported device at a time",
+            "Watch in Ultra HD",
+            "Download on 6 supported devices at a time",
+            "Cineverse spatial audio"
+        ]
+    }
+]

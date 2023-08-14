@@ -1,0 +1,38 @@
+.movie-card {
+    height: 450px;
+    flex-basis: 28%;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &:hover {
+        transform: scale(1.01);
+    }
+    
+    .movie-image {
+        height: 80%;
+        width: 100%;
+        
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+    
+    .movie-info {
+        width: 100%;
+        margin: 10px 0;
+        
+        h4 {
+            text-align: center;
+            font-size: 18px;
+        }
+        
+        .movie-details {
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}

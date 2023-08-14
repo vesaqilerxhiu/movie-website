@@ -1,0 +1,51 @@
+.plans-container {
+
+    .plans-title {
+        margin-top: 50px;
+        margin-left: 50px;
+        color: #ff7512;
+        text-transform: uppercase;
+    }
+    
+    p {
+        margin: 10px 50px;
+    }
+    
+    .plans-layout {
+        display: flex;
+        justify-content: space-around;
+        height: 300px;
+        margin: 40px 20px 50px;
+    
+        .single-plan {
+            border: 1px solid white;
+            padding: 0 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            transition: transform 0.2 ease;
+
+            &:hover {
+                transform: scale(1.02);                
+            }
+    
+            h2 {
+                text-align: center;
+                width: 100%;
+                background-color: rgb(22, 133, 133);
+                color: white;
+
+            }
+    
+            ul {
+                padding: 0;             // ul ka padding by default keshtuqe ia kom heke
+                list-style-type: none;
+            }
+    
+            h3 {
+                color: rgb(227, 227, 45);
+            }
+        }
+    }
+}
