@@ -6,3 +6,14 @@ In the project directory, you can run:
 
 ![image](https://github.com/vesaqilerxhiu/movie-website/assets/142233629/10c2795c-90f9-4a98-9e5b-17eddae97b1c)
 
+![image](https://github.com/vesaqilerxhiu/movie-website/assets/142233629/a689225a-6bcb-4f82-91a6-c6385d72d007)
+
+![image](https://github.com/vesaqilerxhiu/movie-website/assets/142233629/db3f9e57-fc29-4194-bc05-58bee0e3bf70)
+
+![image](https://github.com/vesaqilerxhiu/movie-website/assets/142233629/9bc9b49b-bdba-4a50-b440-93012fc5149b)
+
+![image](https://github.com/vesaqilerxhiu/movie-website/assets/142233629/89954d7a-19ee-4b0e-a2c7-dba5163ade2f)
+
+![image](https://github.com/vesaqilerxhiu/movie-website/assets/142233629/af239dd5-52c9-44b4-b902-3cfe89319727)
+
+![image](https://github.com/vesaqilerxhiu/movie-website/assets/142233629/6799382f-6af3-4c83-b07f-1978a1a652f1)
