@@ -17,7 +17,8 @@ Various React hooks, including useState, useEffect, useContext, and custom hooks
 Sass for styling
 
 
-![image](https://github.com/vesaqilerxhiu/movie-website/assets/142233629/10c2795c-90f9-4a98-9e5b-17eddae97b1c)
+![image](https://github.com/vesaqilerxhiu/movie-website/assets/142233629/fcde244c-86c2-452a-9b39-8b37955644b6)
+
 
 ![image](https://github.com/vesaqilerxhiu/movie-website/assets/142233629/a689225a-6bcb-4f82-91a6-c6385d72d007)
 
