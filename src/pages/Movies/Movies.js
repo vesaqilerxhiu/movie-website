@@ -107,7 +107,7 @@ function Movies() {
           <div className="movie-card" key={movie.id}>
             <div className="movie-image">
               <Link to={`/movies/${movie.id}`} onClick={() => window.scrollTo({ top: 0 })}>
-                <img src={movie.posterUrl} alt={movie.title} />
+                <img src={process.env.PUBLIC_URL + movie.posterUrl} alt={movie.title} />
               </Link>
             </div>
             <div className="movie-info">
