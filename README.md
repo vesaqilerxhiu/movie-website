@@ -3,7 +3,7 @@ This project is an dynamic platform designed for movie enthusiasts. It allows us
 
 ## Live Demo 🌐
 You can explore the live version of this project here:  
-[Space Website] (https://vesaqilerxhiu.github.io/space-website/)  
+https://vesaqilerxhiu.github.io/movie-website  
 
 ## Technologies Used 🛠️
 **React**: For building the user interface with reusable components.  
