@@ -12,7 +12,7 @@ import Contact from './pages/Contact/Contact'
 function App() {
   return (
     <>
-    <BrowserRouter basename="/movie1">
+    <BrowserRouter basename="/movie-website">
      <Header />
      <Routes>
       <Route exact path='/' element={<Home />} />
