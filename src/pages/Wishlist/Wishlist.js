@@ -31,7 +31,7 @@ function Wishlist() {
               return (
                 <div key={movie.id} className='wishlist-movie'>
                   <div className='wishlist-movie-image'>
-                    <img src={movie.posterUrl} alt={movie.title} />
+                    <img src={process.env.PUBLIC_URL + movie.posterUrl} alt={movie.title} />
                   </div>  
                   <div className='wishlist-movie-info'>
                     <h4>{movie.title}</h4>
