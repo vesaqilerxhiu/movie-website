@@ -35,7 +35,7 @@ function SingleMovie() {
     <section className='single-container'>
       <div className='single-info'>
         <div className='single-poster'>
-          <img src={singleMovie.posterUrl} alt={singleMovie.title} />
+          <img src={process.env.PUBLIC_URL + singleMovie.posterUrl} alt={singleMovie.title} />
         </div>
         <div className='single-description'>
           <h2>{singleMovie.title}</h2>
