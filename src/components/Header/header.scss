@@ -1,0 +1,55 @@
+.header-container {
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff7512;
+    color: white;
+
+    .header-title {
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+        font-size: 25px;
+        
+        p {
+            margin-top: 2px;
+            margin-left: 5px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    }
+
+    .header-links {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+        font-size: medium;
+        font-weight: bold;
+
+        li {
+            list-style-type: none;
+            height: 100%;
+
+            a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100%;
+                padding: 0 20px;
+                text-decoration: none;
+                color: white;  
+
+                &:hover {
+                    color: #048585;
+                }
+            }
+
+            // active per NavLink nuk e shtijme brenda a {} sikur &:hover (psh &:active) por krejt jashte:
+            a.active {             
+                color: #048585;
+            }
+        }
+    }
+}

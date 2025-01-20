@@ -1,0 +1,55 @@
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.home-container {
+  padding: 50px;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/movie.jpg");
+  background-size: cover;
+  background-position: center; 
+
+  .home-intro {
+    text-align: justify;
+
+    h1 {
+      color: lightseagreen;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+
+      span {
+          font-size: 48px;
+          color: #ff7512;
+      }
+      
+    }
+
+    h2 {
+      margin-top: 40px;
+      margin-bottom: 20px;
+      overflow: hidden;
+      white-space: nowrap;
+      animation: fade 2.1s infinite;
+    }
+
+    p {
+      width: 90%;
+      font-size: 18px;
+    }
+
+    .home-buttons {
+      display: flex;
+      column-gap: 40px;
+      margin-top: 30px;
+      height: 60px;
+      padding: 10px 0;
+    }
+  }
+}

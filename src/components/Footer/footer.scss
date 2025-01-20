@@ -1,0 +1,30 @@
+.footer-container {
+    // position: relative;
+    // margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #008080;
+    height: 65px;
+
+    .footer-links {
+        padding-top: 8px;
+        font-size: 23px;
+
+        a {
+            color: white;
+            margin-right: 13px;
+
+            &:hover {
+                color: rgb(123, 207, 235);
+            }
+        }      
+    }
+
+    .footer-text {
+        font-size: 18px;
+        color: white;
+    }
+}

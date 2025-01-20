@@ -1,0 +1,88 @@
+.contact-button {
+    width: 45%;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #ff7512;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s;
+
+    &:hover {
+        box-shadow: 0 0 5px rgb(255, 117, 18);
+    }
+
+    &:active {
+        transform: scale(0.93);
+    }
+}
+
+.link-button {
+    background-color: #ff7512;
+    width: 180px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    transition: transform 0.2s;
+
+    &:hover {
+        box-shadow: 0 0 5px white;
+        transform: scale(1.02);
+    }
+}
+
+.genre-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #008080;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+    &.active {
+      background-color: #053434;
+    }
+}
+
+.add-wishlist-button { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    width: 180px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: #ff7512;
+    color: white;
+    text-decoration: none;
+    transition: transform 0.2s;
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: 0 0 5px rgb(255, 117, 18);
+    }
+}
+
+.wishlist-button {
+    padding: 3px 13px;
+    font-size: 14px;
+    border: none;
+    border-radius: 20px;
+    background-color: #008080;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+    &:hover {
+      background-color: #095555;
+      box-shadow: 0 0 5px #658e8e;
+    }
+}

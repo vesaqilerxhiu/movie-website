@@ -1,0 +1,96 @@
+.single-not-found {
+    text-align: center;
+    padding: 50px;
+}
+
+.single-container {
+    padding: 70px 70px;
+
+    .single-info {
+        display: flex;
+        height: 410px;
+        margin-bottom: 50px;
+
+        .single-poster {
+            width: 35%;
+            margin-right: 20px;
+
+            img {
+                border-radius: 30px;
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .single-description {
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            border-radius: 30px;
+            padding: 10px 30px;
+
+            h2 {
+                color: #ff7512;
+                margin-top: 5px;
+                margin-bottom: 10px;
+            }
+
+            .single-plot {
+                height: 50px;
+                margin-bottom: 40px;
+            }
+
+            .single-details {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 20px;    
+                
+                .single-details-1,
+                .single-details-2 {
+                    
+                    h4 {
+                        color: lightseagreen;
+                    }
+                    p {
+                        margin-bottom: 10px;
+                    }
+                }
+
+                .single-details-1 {
+                    width: 65%;
+                }
+            }
+
+            .single-wishlist-text {
+
+                span {
+                    color: #ff7512;
+                    font-weight: bold;
+                }    
+                
+                a {
+                    color: lightseagreen;
+                }
+            }
+        }
+    }
+
+
+    // position: relative on .single-video means that the element is positioned relative to its normal position.
+    // This positioning doesn't actually change the layout of the .single-video element itself but allows child elements with position: absolute to be positioned relative to .single-video.
+
+    // position: absolute on the iframe means that the iframe is positioned relative to its nearest positioned ancestor. In this case, because .single-video is the nearest ancestor with position: relative, the iframe will be positioned relative to .single-video.
+    // The top: 0, left: 0, width: 100%, and height: 100% properties on the iframe make it fill the entire .single-video container.
+
+    .single-video {
+        position: relative;
+        width: 100%;
+        height: 550px;
+        
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }    
+}
