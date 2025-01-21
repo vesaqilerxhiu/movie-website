@@ -1,9 +1,9 @@
 # movie-website
-This project is an dynamic platform designed for movie enthusiasts. It allows users to explore, search, and access detailed information about their favorite films, all presented through a modern and user-friendly interface.
+This project is a dynamic platform designed for movie enthusiasts. It allows users to explore, search, and access detailed information about their favorite films, all presented through a modern and user-friendly interface.
 
 ## Live Demo 🌐
 You can explore the live version of this project here:  
-https://vesaqilerxhiu.github.io/movie-website  
+[Movie Website] (https://vesaqilerxhiu.github.io/movie-website)  
 
 ## Technologies Used 🛠️
 **React**: For building the user interface with reusable components.  
