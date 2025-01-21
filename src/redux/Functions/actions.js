@@ -11,7 +11,7 @@ export const deleteMovie = (id) => ({
 })
 
 
-// objektin { type, data } e shtijme ne kllapa() sepse nese nuk e bejme kete por vetem {}, javascript e merr kontentin brenda {} sikur trupin e funksionit, e jo si objekt.
+// objektin { type, data } e shtijme ne kllapa() sepse nese nuk e bejme kete por vetem {}, javascript e merr kontentin brenda {} sikur trup te funksionit, e jo si objekt.
 
 // JavaScript interprets the curly braces as the start of a function body, not an object.
 
