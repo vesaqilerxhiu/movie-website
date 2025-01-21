@@ -1,4 +1,4 @@
-# movie-website
+# movie-website  
 This project is a dynamic platform designed for movie enthusiasts. It allows users to explore, search, and access detailed information about their favorite films, all presented through a modern and user-friendly interface.  
 
 ## Live Demo 🌐
